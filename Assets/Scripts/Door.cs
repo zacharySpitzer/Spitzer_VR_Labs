@@ -22,6 +22,7 @@ public class Door : MonoBehaviour
         {
            
             door.transform.position = startpos;
+            timer = 10f;
         }
         timer -= Time.deltaTime;
     }
