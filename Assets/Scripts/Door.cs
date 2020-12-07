@@ -8,6 +8,7 @@ public class Door : MonoBehaviour
     public Vector3 positionme;
     public Vector3 startpos;
     public float timer = 10f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -29,8 +30,8 @@ public class Door : MonoBehaviour
     public void button1Door()
     {
         timer = 10f;
-       // door.SetActive(false);
-       
+        // door.SetActive(false);
+      
         positionme.x = -3;
         door.transform.position = positionme;
     }
